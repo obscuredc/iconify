@@ -10,3 +10,8 @@ example:
   <p><span class="icon" style="width:40px;height:40px;">https://this-is-the-url-to-the-icon</span>wow that was an icon</p>
 </body>
 ```
++ the iconify script and some iconify api...
+```js
+Iconify.Start();
+Iconify.Update();
+```
