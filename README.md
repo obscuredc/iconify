@@ -28,4 +28,9 @@ this may be unneccessary, as there are not a lot of commands.
 * parameters: none
 * returns: Iconify object
 * use: sets `Iconify.IsDead` to `true`, which stops `Iconify.Update()` from editing elements with class `icon`.
+### additional notes
+the apis are chainable, meaning to only evalulate icons once on a page, you could do this:
+```js
+Iconify.Start().End();
+```
 
