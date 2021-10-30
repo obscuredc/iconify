@@ -13,5 +13,4 @@ example:
 + the iconify script and some iconify api...
 ```js
 Iconify.Start();
-Iconify.Update();
 ```
