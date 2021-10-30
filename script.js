@@ -6,10 +6,12 @@ const Iconify = {
     //call to restart iconify after killing.
     this.IsDead = false;
     this.Update();
+    return Iconify;
   },
   End: function() {
     //call to stop iconify from updating and processing requests
     this.IsDead = true;
+    return Iconify;
   },
   Update: function() {
     //this just turns spans into icons :>
@@ -30,5 +32,6 @@ const Iconify = {
         t[i].appendChild(f);
       }
     }
+    return Iconify;
   }
 }
